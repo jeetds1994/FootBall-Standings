@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA74E8811DDA2C5E00F3F46B /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA74E8801DDA2C5E00F3F46B /* NotificationCenter.framework */; };
+		AA74E8841DDA2C5E00F3F46B /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74E8831DDA2C5E00F3F46B /* TodayViewController.swift */; };
+		AA74E8871DDA2C5E00F3F46B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA74E8851DDA2C5E00F3F46B /* MainInterface.storyboard */; };
+		AA74E88B1DDA2C5E00F3F46B /* Futbol Standings Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AA74E87E1DDA2C5E00F3F46B /* Futbol Standings Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA74E8901DDA2FC400F3F46B /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA74E8801DDA2C5E00F3F46B /* NotificationCenter.framework */; };
+		AA74E8921DDA350D00F3F46B /* loadingWidgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74E8911DDA350D00F3F46B /* loadingWidgetViewController.swift */; };
+		AA74E8961DDA3C8F00F3F46B /* CustomWidgetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74E8951DDA3C8F00F3F46B /* CustomWidgetTableViewCell.swift */; };
+		AA74E8981DDA3EBD00F3F46B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA74E8971DDA3EBD00F3F46B /* Assets.xcassets */; };
+		AA8D4CD81DD76D40006D5060 /* BPLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8D4CD71DD76D40006D5060 /* BPLViewController.swift */; };
+		AA9E09311DD4C54100C117D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9E09301DD4C54100C117D6 /* AppDelegate.swift */; };
+		AA9E09331DD4C54100C117D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9E09321DD4C54100C117D6 /* ViewController.swift */; };
+		AA9E09361DD4C54100C117D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9E09341DD4C54100C117D6 /* Main.storyboard */; };
+		AA9E09391DD4C54100C117D6 /* Futbol_Standings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA9E09371DD4C54100C117D6 /* Futbol_Standings.xcdatamodeld */; };
+		AA9E093B1DD4C54100C117D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9E093A1DD4C54100C117D6 /* Assets.xcassets */; };
+		AA9E093E1DD4C54100C117D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9E093C1DD4C54100C117D6 /* LaunchScreen.storyboard */; };
+		AA9E09491DD4C54100C117D6 /* Futbol_StandingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9E09481DD4C54100C117D6 /* Futbol_StandingsTests.swift */; };
+		AA9E09541DD4C54100C117D6 /* Futbol_StandingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9E09531DD4C54100C117D6 /* Futbol_StandingsUITests.swift */; };
+		AAF1F1E71DD92F6000023906 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF1F1E61DD92F6000023906 /* CustomTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA74E8891DDA2C5E00F3F46B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA9E09251DD4C54100C117D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA74E87D1DDA2C5E00F3F46B;
+			remoteInfo = "Futbol Standings Widget";
+		};
+		AA9E09451DD4C54100C117D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA9E09251DD4C54100C117D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA9E092C1DD4C54100C117D6;
+			remoteInfo = "Futbol Standings";
+		};
+		AA9E09501DD4C54100C117D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA9E09251DD4C54100C117D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA9E092C1DD4C54100C117D6;
+			remoteInfo = "Futbol Standings";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA74E88F1DDA2C5E00F3F46B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AA74E88B1DDA2C5E00F3F46B /* Futbol Standings Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA74E87E1DDA2C5E00F3F46B /* Futbol Standings Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Futbol Standings Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA74E8801DDA2C5E00F3F46B /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		AA74E8831DDA2C5E00F3F46B /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		AA74E8861DDA2C5E00F3F46B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		AA74E8881DDA2C5E00F3F46B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA74E8911DDA350D00F3F46B /* loadingWidgetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loadingWidgetViewController.swift; sourceTree = "<group>"; };
+		AA74E8931DDA370400F3F46B /* Futbol Standings Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Futbol Standings Widget.entitlements"; sourceTree = "<group>"; };
+		AA74E8941DDA371200F3F46B /* Futbol Standings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Futbol Standings.entitlements"; sourceTree = "<group>"; };
+		AA74E8951DDA3C8F00F3F46B /* CustomWidgetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomWidgetTableViewCell.swift; sourceTree = "<group>"; };
+		AA74E8971DDA3EBD00F3F46B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA8D4CD71DD76D40006D5060 /* BPLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPLViewController.swift; sourceTree = "<group>"; };
+		AA9E092D1DD4C54100C117D6 /* Futbol Standings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Futbol Standings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9E09301DD4C54100C117D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA9E09321DD4C54100C117D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA9E09351DD4C54100C117D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA9E09381DD4C54100C117D6 /* Futbol_Standings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Futbol_Standings.xcdatamodel; sourceTree = "<group>"; };
+		AA9E093A1DD4C54100C117D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA9E093D1DD4C54100C117D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA9E093F1DD4C54100C117D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9E09441DD4C54100C117D6 /* Futbol StandingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Futbol StandingsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9E09481DD4C54100C117D6 /* Futbol_StandingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Futbol_StandingsTests.swift; sourceTree = "<group>"; };
+		AA9E094A1DD4C54100C117D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9E094F1DD4C54100C117D6 /* Futbol StandingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Futbol StandingsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9E09531DD4C54100C117D6 /* Futbol_StandingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Futbol_StandingsUITests.swift; sourceTree = "<group>"; };
+		AA9E09551DD4C54100C117D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF1F1E61DD92F6000023906 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA74E87B1DDA2C5E00F3F46B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA74E8811DDA2C5E00F3F46B /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9E092A1DD4C54100C117D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA74E8901DDA2FC400F3F46B /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9E09411DD4C54100C117D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9E094C1DD4C54100C117D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA74E87F1DDA2C5E00F3F46B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA74E8801DDA2C5E00F3F46B /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA74E8821DDA2C5E00F3F46B /* Futbol Standings Widget */ = {
+			isa = PBXGroup;
+			children = (
+				AA74E8931DDA370400F3F46B /* Futbol Standings Widget.entitlements */,
+				AA74E8831DDA2C5E00F3F46B /* TodayViewController.swift */,
+				AA74E8951DDA3C8F00F3F46B /* CustomWidgetTableViewCell.swift */,
+				AA74E8971DDA3EBD00F3F46B /* Assets.xcassets */,
+				AA74E8851DDA2C5E00F3F46B /* MainInterface.storyboard */,
+				AA74E8911DDA350D00F3F46B /* loadingWidgetViewController.swift */,
+				AA74E8881DDA2C5E00F3F46B /* Info.plist */,
+			);
+			path = "Futbol Standings Widget";
+			sourceTree = "<group>";
+		};
+		AA9E09241DD4C54100C117D6 = {
+			isa = PBXGroup;
+			children = (
+				AA9E092F1DD4C54100C117D6 /* Futbol Standings */,
+				AA9E09471DD4C54100C117D6 /* Futbol StandingsTests */,
+				AA9E09521DD4C54100C117D6 /* Futbol StandingsUITests */,
+				AA74E8821DDA2C5E00F3F46B /* Futbol Standings Widget */,
+				AA74E87F1DDA2C5E00F3F46B /* Frameworks */,
+				AA9E092E1DD4C54100C117D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA9E092E1DD4C54100C117D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA9E092D1DD4C54100C117D6 /* Futbol Standings.app */,
+				AA9E09441DD4C54100C117D6 /* Futbol StandingsTests.xctest */,
+				AA9E094F1DD4C54100C117D6 /* Futbol StandingsUITests.xctest */,
+				AA74E87E1DDA2C5E00F3F46B /* Futbol Standings Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA9E092F1DD4C54100C117D6 /* Futbol Standings */ = {
+			isa = PBXGroup;
+			children = (
+				AA74E8941DDA371200F3F46B /* Futbol Standings.entitlements */,
+				AA9E09301DD4C54100C117D6 /* AppDelegate.swift */,
+				AA9E09321DD4C54100C117D6 /* ViewController.swift */,
+				AA8D4CD71DD76D40006D5060 /* BPLViewController.swift */,
+				AA9E09341DD4C54100C117D6 /* Main.storyboard */,
+				AAF1F1E61DD92F6000023906 /* CustomTableViewCell.swift */,
+				AA9E093C1DD4C54100C117D6 /* LaunchScreen.storyboard */,
+				AA9E093A1DD4C54100C117D6 /* Assets.xcassets */,
+				AA9E093F1DD4C54100C117D6 /* Info.plist */,
+				AA9E09371DD4C54100C117D6 /* Futbol_Standings.xcdatamodeld */,
+			);
+			path = "Futbol Standings";
+			sourceTree = "<group>";
+		};
+		AA9E09471DD4C54100C117D6 /* Futbol StandingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA9E09481DD4C54100C117D6 /* Futbol_StandingsTests.swift */,
+				AA9E094A1DD4C54100C117D6 /* Info.plist */,
+			);
+			path = "Futbol StandingsTests";
+			sourceTree = "<group>";
+		};
+		AA9E09521DD4C54100C117D6 /* Futbol StandingsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA9E09531DD4C54100C117D6 /* Futbol_StandingsUITests.swift */,
+				AA9E09551DD4C54100C117D6 /* Info.plist */,
+			);
+			path = "Futbol StandingsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA74E87D1DDA2C5E00F3F46B /* Futbol Standings Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA74E88E1DDA2C5E00F3F46B /* Build configuration list for PBXNativeTarget "Futbol Standings Widget" */;
+			buildPhases = (
+				AA74E87A1DDA2C5E00F3F46B /* Sources */,
+				AA74E87B1DDA2C5E00F3F46B /* Frameworks */,
+				AA74E87C1DDA2C5E00F3F46B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Futbol Standings Widget";
+			productName = "Futbol Standings Widget";
+			productReference = AA74E87E1DDA2C5E00F3F46B /* Futbol Standings Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AA9E092C1DD4C54100C117D6 /* Futbol Standings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9E09581DD4C54100C117D6 /* Build configuration list for PBXNativeTarget "Futbol Standings" */;
+			buildPhases = (
+				AA9E09291DD4C54100C117D6 /* Sources */,
+				AA9E092A1DD4C54100C117D6 /* Frameworks */,
+				AA9E092B1DD4C54100C117D6 /* Resources */,
+				AA74E88F1DDA2C5E00F3F46B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA74E88A1DDA2C5E00F3F46B /* PBXTargetDependency */,
+			);
+			name = "Futbol Standings";
+			productName = "Futbol Standings";
+			productReference = AA9E092D1DD4C54100C117D6 /* Futbol Standings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA9E09431DD4C54100C117D6 /* Futbol StandingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9E095B1DD4C54100C117D6 /* Build configuration list for PBXNativeTarget "Futbol StandingsTests" */;
+			buildPhases = (
+				AA9E09401DD4C54100C117D6 /* Sources */,
+				AA9E09411DD4C54100C117D6 /* Frameworks */,
+				AA9E09421DD4C54100C117D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA9E09461DD4C54100C117D6 /* PBXTargetDependency */,
+			);
+			name = "Futbol StandingsTests";
+			productName = "Futbol StandingsTests";
+			productReference = AA9E09441DD4C54100C117D6 /* Futbol StandingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA9E094E1DD4C54100C117D6 /* Futbol StandingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9E095E1DD4C54100C117D6 /* Build configuration list for PBXNativeTarget "Futbol StandingsUITests" */;
+			buildPhases = (
+				AA9E094B1DD4C54100C117D6 /* Sources */,
+				AA9E094C1DD4C54100C117D6 /* Frameworks */,
+				AA9E094D1DD4C54100C117D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA9E09511DD4C54100C117D6 /* PBXTargetDependency */,
+			);
+			name = "Futbol StandingsUITests";
+			productName = "Futbol StandingsUITests";
+			productReference = AA9E094F1DD4C54100C117D6 /* Futbol StandingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA9E09251DD4C54100C117D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Dilj;
+				TargetAttributes = {
+					AA74E87D1DDA2C5E00F3F46B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = XGM23PCWKM;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					AA9E092C1DD4C54100C117D6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = XGM23PCWKM;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					AA9E09431DD4C54100C117D6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA9E092C1DD4C54100C117D6;
+					};
+					AA9E094E1DD4C54100C117D6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA9E092C1DD4C54100C117D6;
+					};
+				};
+			};
+			buildConfigurationList = AA9E09281DD4C54100C117D6 /* Build configuration list for PBXProject "Futbol Standings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA9E09241DD4C54100C117D6;
+			productRefGroup = AA9E092E1DD4C54100C117D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA9E092C1DD4C54100C117D6 /* Futbol Standings */,
+				AA9E09431DD4C54100C117D6 /* Futbol StandingsTests */,
+				AA9E094E1DD4C54100C117D6 /* Futbol StandingsUITests */,
+				AA74E87D1DDA2C5E00F3F46B /* Futbol Standings Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA74E87C1DDA2C5E00F3F46B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA74E8981DDA3EBD00F3F46B /* Assets.xcassets in Resources */,
+				AA74E8871DDA2C5E00F3F46B /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9E092B1DD4C54100C117D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9E093E1DD4C54100C117D6 /* LaunchScreen.storyboard in Resources */,
+				AA9E093B1DD4C54100C117D6 /* Assets.xcassets in Resources */,
+				AA9E09361DD4C54100C117D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9E09421DD4C54100C117D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9E094D1DD4C54100C117D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA74E87A1DDA2C5E00F3F46B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA74E8841DDA2C5E00F3F46B /* TodayViewController.swift in Sources */,
+				AA74E8921DDA350D00F3F46B /* loadingWidgetViewController.swift in Sources */,
+				AA74E8961DDA3C8F00F3F46B /* CustomWidgetTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9E09291DD4C54100C117D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9E09391DD4C54100C117D6 /* Futbol_Standings.xcdatamodeld in Sources */,
+				AAF1F1E71DD92F6000023906 /* CustomTableViewCell.swift in Sources */,
+				AA9E09331DD4C54100C117D6 /* ViewController.swift in Sources */,
+				AA9E09311DD4C54100C117D6 /* AppDelegate.swift in Sources */,
+				AA8D4CD81DD76D40006D5060 /* BPLViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9E09401DD4C54100C117D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9E09491DD4C54100C117D6 /* Futbol_StandingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9E094B1DD4C54100C117D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9E09541DD4C54100C117D6 /* Futbol_StandingsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA74E88A1DDA2C5E00F3F46B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA74E87D1DDA2C5E00F3F46B /* Futbol Standings Widget */;
+			targetProxy = AA74E8891DDA2C5E00F3F46B /* PBXContainerItemProxy */;
+		};
+		AA9E09461DD4C54100C117D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA9E092C1DD4C54100C117D6 /* Futbol Standings */;
+			targetProxy = AA9E09451DD4C54100C117D6 /* PBXContainerItemProxy */;
+		};
+		AA9E09511DD4C54100C117D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA9E092C1DD4C54100C117D6 /* Futbol Standings */;
+			targetProxy = AA9E09501DD4C54100C117D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA74E8851DDA2C5E00F3F46B /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA74E8861DDA2C5E00F3F46B /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		AA9E09341DD4C54100C117D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9E09351DD4C54100C117D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA9E093C1DD4C54100C117D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9E093D1DD4C54100C117D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA74E88C1DDA2C5E00F3F46B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Futbol Standings Widget/Futbol Standings Widget.entitlements";
+				DEVELOPMENT_TEAM = XGM23PCWKM;
+				INFOPLIST_FILE = "Futbol Standings Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dilj.Futbol-Standings.Futbol-Standings-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA74E88D1DDA2C5E00F3F46B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Futbol Standings Widget/Futbol Standings Widget.entitlements";
+				DEVELOPMENT_TEAM = XGM23PCWKM;
+				INFOPLIST_FILE = "Futbol Standings Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dilj.Futbol-Standings.Futbol-Standings-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AA9E09561DD4C54100C117D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA9E09571DD4C54100C117D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA9E09591DD4C54100C117D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Futbol Standings/Futbol Standings.entitlements";
+				DEVELOPMENT_TEAM = XGM23PCWKM;
+				INFOPLIST_FILE = "Futbol Standings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dilj.Futbol-Standings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA9E095A1DD4C54100C117D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Futbol Standings/Futbol Standings.entitlements";
+				DEVELOPMENT_TEAM = XGM23PCWKM;
+				INFOPLIST_FILE = "Futbol Standings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dilj.Futbol-Standings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AA9E095C1DD4C54100C117D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Futbol StandingsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dilj.Futbol-StandingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Futbol Standings.app/Futbol Standings";
+			};
+			name = Debug;
+		};
+		AA9E095D1DD4C54100C117D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Futbol StandingsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dilj.Futbol-StandingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Futbol Standings.app/Futbol Standings";
+			};
+			name = Release;
+		};
+		AA9E095F1DD4C54100C117D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Futbol StandingsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dilj.Futbol-StandingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Futbol Standings";
+			};
+			name = Debug;
+		};
+		AA9E09601DD4C54100C117D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Futbol StandingsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dilj.Futbol-StandingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Futbol Standings";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA74E88E1DDA2C5E00F3F46B /* Build configuration list for PBXNativeTarget "Futbol Standings Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA74E88C1DDA2C5E00F3F46B /* Debug */,
+				AA74E88D1DDA2C5E00F3F46B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9E09281DD4C54100C117D6 /* Build configuration list for PBXProject "Futbol Standings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9E09561DD4C54100C117D6 /* Debug */,
+				AA9E09571DD4C54100C117D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9E09581DD4C54100C117D6 /* Build configuration list for PBXNativeTarget "Futbol Standings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9E09591DD4C54100C117D6 /* Debug */,
+				AA9E095A1DD4C54100C117D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9E095B1DD4C54100C117D6 /* Build configuration list for PBXNativeTarget "Futbol StandingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9E095C1DD4C54100C117D6 /* Debug */,
+				AA9E095D1DD4C54100C117D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9E095E1DD4C54100C117D6 /* Build configuration list for PBXNativeTarget "Futbol StandingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9E095F1DD4C54100C117D6 /* Debug */,
+				AA9E09601DD4C54100C117D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA9E09371DD4C54100C117D6 /* Futbol_Standings.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA9E09381DD4C54100C117D6 /* Futbol_Standings.xcdatamodel */,
+			);
+			currentVersion = AA9E09381DD4C54100C117D6 /* Futbol_Standings.xcdatamodel */;
+			path = Futbol_Standings.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA9E09251DD4C54100C117D6 /* Project object */;
+}

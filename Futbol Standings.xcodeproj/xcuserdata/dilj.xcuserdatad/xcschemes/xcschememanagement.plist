@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Futbol Standings Widget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Futbol Standings.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>AA74E87D1DDA2C5E00F3F46B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AA9E092C1DD4C54100C117D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AA9E09431DD4C54100C117D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AA9E094E1DD4C54100C117D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
